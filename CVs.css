@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url("Bruh.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #1d242b;
+  background-position: right;
+}
+
+header {
+  width: 100%;
+  heitht: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+header .Logo a {
+  color: #fafafa;
+  font-size: 30px;
+}
+
+header .nav-mainbar {
+  display: flex;
+  justify-content: space-between;
+  width: 700px;
+}
+header .nav-mainbar a {
+  color: #fafafa;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+header .info {
+  display: flex;
+  justify-content: space-between;
+}
+
+header .info a {
+  color: #fafafa;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+header .info .stash {
+  margin-left: 28px;
+  margin-right: 28px;
+}
+
+header a:hover {
+  color: #c7eeff;
+}
+
+main .banner {
+  position: absolute;
+  top: 35%;
+  left: 0;
+  color: #fafafa;
+}
+
+main .banner .hi-text {
+  padding-left: 400px;
+}
+
+.hi-text h1 {
+  font-size: 70px;
+  position: relative;
+  color: #fafafa;
+  margin-top: 30px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.hi-text span {
+  color: #0077c0;
+}
+
+.btn-resume {
+  display: flex;
+  width: 100%;
+  position: relative;
+  margin-top: 20px;
+}
+
+.btn-resume:before {
+  content: "";
+  position: absolute;
+  width: 400px;
+  height: 1px;
+  border-top: 1px solid #fafafa;
+  top: 50%;
+  left: -440px;
+}
+
+.btn-resume span {
+  font-size: 25px;
+  margin-left: 25px;
+  color: #fafafa;
+  cursor: pointer;
+}
+
+.btn-resume-inner i {
+  color: #fff;
+  font-size: 15px;
+  display: inline-flex;
+  width: 80px;
+  height: 80px;
+  padding-left: 0.25rem;
+  text-align: center;
+  border: 1px solid #fafafa;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+/* I have found the solution that i meant in notes */
+
+.btn-resume-inner:hover i,
+.btn-resume-inner:hover span {
+  color: #0077c0;
+  border-color: #0077c0;
+  transition: all 0.5s;
+}
+
+footer {
+  position: absolute;
+  width: 300px;
+  bottom: 30px;
+  right: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer.social a {
+  width: 50px;
+  height: 50px;
+}
+
+footer.social a {
+  display: block;
+  color: #fafafa;
+  text-align: center;
+  padding: 14px 17px;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+footer.social a:hover {
+  background-color: #0077c0;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
